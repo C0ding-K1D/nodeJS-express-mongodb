@@ -3,12 +3,12 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-const campsiteRouter = require("./routes/campsiteRouter");
-const promotionRouter = require("./routes/promotionRouter");
-const partnerRouter = require("./routes/partnerRouter");
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
+const campsiteRouter = require("./routes/campsiteRouter");
+const promotionRouter = require("./routes/promotionRouter");
+const partnerRouter = require("./routes/partnerRouter");
 
 var app = express();
 
