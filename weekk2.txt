@@ -1,2 +1,0 @@
-Matthew:
-	https://github.com/C0ding-K1D/nodeJS-express-mongodb
